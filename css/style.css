@@ -1,0 +1,609 @@
+/*selector etiqueta*/
+@font-face {
+    font-family: roboto;
+    src: url(OpenSans-Light.ttf);
+}
+
+header {
+	background: #10527b;
+    color: #fff;
+    margin-top: -105px;
+}
+
+header .logo {
+	width: 100%;
+}
+
+header .margin {
+	margin: 15px 0 5px 0;
+}
+
+body {
+    font-family: roboto;
+    background: #125a86;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: rgb(0, 155, 176);
+    background-color: transparent;
+}
+
+a:visited {
+    color: rgb(35, 160, 177);
+    background-color: transparent;
+}
+
+footer {
+    padding-top: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.photo-left {
+    display: none;
+}
+
+/*selector clase*/
+
+.blue-line {
+    background: rgb(0, 255, 242);
+    height: 2px;
+}
+
+.blue-rectangle {
+    background: #10527b;
+    height: 100px;
+}
+
+.parent-container {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.inside-container{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 128px 0 0;
+    padding: 8rem 0 0;
+    text-align: center;
+    margin-top: -100px;
+}
+
+/*description*/
+.description {
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.description p {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.photo {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.article {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*startups*/
+
+.startups {
+    border-top-left-radius: 70% 30%;
+    border-top-right-radius: 70% 30%;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    z-index: 2;
+    padding-bottom: 50px;
+}
+
+.startups .title {
+    font-weight: 800;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+
+.startups .findpet {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.startups .muvo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.startups .mimegafono {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.startups .ssgaming {
+    width: 40px;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+/*proyects/activities*/
+
+.proyects {
+    border-top-left-radius: 70% 30%;
+    border-top-right-radius: 70% 30%;
+    background-color: rgb(226, 226, 226);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.proyects .logo {
+    width: 50px;
+    height: 50px;
+}
+
+/*bootstrap*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #125a86;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #125a86;
+}
+
+.carousel-indicators button{
+    background-color: #127486 !important;
+    height: 5px !important;
+}
+
+.carousel-indicators {
+    margin-bottom: -35px;
+}
+
+/*max*/
+@media (max-width: 575px) { 
+    header {
+        margin-top: -155px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    header .logo {
+        padding-top: 5px;
+        width: 40%; 
+    }
+
+    header .logo-container {
+        text-align: center;
+    }
+
+    body p {
+        font-size: 16px;
+    }
+
+    .blue-rectangle {
+        height: 150px;
+    }
+
+    .inside-container {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .parent-container {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .photo-left {
+        display: block;
+        text-align: center;
+        width: 120%;
+        padding: 20%;
+        margin: -14%;
+    }
+
+    .photo-right {
+        display: none;
+    }
+
+    .article-center {
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .description {
+        padding-bottom: 350px;
+    }
+
+    .startups {
+        margin-top: -300px;
+        padding-bottom: 100px;
+    }
+
+    .startups h5{
+        font-size: 15px;
+    }
+
+    .proyects h5{
+        font-size: 15px;
+    }
+
+    .proyects {
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 576px) { 
+    header {
+        margin-top: -105px;
+    }
+
+    header .logo{
+        width: 200%;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    body p {
+        font-size: 18px;
+    }
+
+    .blue-rectangle {
+        height: 120px;
+    }
+
+    .inside-container {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .parent-container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .photo-left {
+        display: block;
+        text-align: center;
+        width: 120%;
+        padding: 20%;
+        margin: -14%;
+    }
+
+    .article-center {
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .photo-right {
+        display: none;
+    }
+
+    .description {
+        padding-bottom: 350px;
+    }
+
+    .startups {
+        margin-top: -300px;
+        padding-bottom: 100px;
+    }
+
+    .startups h5{
+        font-size: 18px;
+    }
+
+    .proyects h5{
+        font-size: 18px;
+    }
+
+    .proyects {
+        margin-top: -70px;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+    header {
+        margin-top: -95px;
+    }
+
+    header .logo{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .inside-container {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .blue-rectangle {
+        height: 90px;
+    }
+
+    .photo-left {
+        display: none;
+    }
+
+    .article-center {
+        width: 65%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .photo-right {
+        display: block;
+    }
+
+    .description {
+        padding-bottom: 250px;
+    }
+
+    .startups {
+        margin-top: -220px;
+        padding-bottom: 100px;
+    }
+
+    .startups h5{
+        font-size: 18px;
+    }
+
+    .proyects h5{
+        font-size: 18px;
+    }
+
+    .proyects {
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 823px) { 
+    header {
+        margin-top: -70px;
+    }
+
+    header .logo{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .blue-rectangle {
+        height: 60px;
+    }
+
+    .photo-left {
+        display: none;
+    }
+
+    .photo-right {
+        display: block;
+    }
+
+    .description {
+        padding-bottom: 250px;
+    }
+
+    .startups {
+        margin-top: -210px;
+        padding-bottom: 100px;
+    }
+
+    .proyects {
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 951px) { 
+    header {
+        margin-top: -75px;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .blue-rectangle {
+        height: 70px;
+    }
+
+    .photo-left {
+        display: none;
+    }
+
+    .description {
+        padding-bottom: 200px;
+    }
+
+    .startups {
+        margin-top: -200px;
+        padding-bottom: 100px;
+    }
+
+    .proyects {
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        margin-top: -85px;
+    }
+
+    h1 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .photo-left {
+        display: none;
+    }
+
+    /*description*/
+    .description {
+        padding-bottom: 500px;
+    }
+
+    .article-center{
+        text-align: left;
+    }
+
+    .blue-rectangle {
+        height: 85px;
+    }
+
+    .startups {
+        margin-top: -450px;
+        padding-bottom: 200px;
+    }
+
+    .proyects {
+        margin-top: -150px;
+    }
+}
+
+@media (min-width: 1500px) {
+    header {
+        margin-top: -105px;
+    }
+
+    h1 {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .blue-rectangle {
+        height: 110px;
+    }
+
+    .startups .findpet {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    .startups .muvo {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    .startups .mimegafono {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    .startups .ssgaming {
+        width: 60px;
+        height: 70px;
+        margin-left: 2px;
+        margin-right: 10px;
+    }
+
+    .proyects .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .article {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .article {
+        margin-left: 60px;
+    }
+
+    .article-center {
+        width: 70%;
+    }
+
+    .photo {
+        width: 100%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .article {
+        margin-left: 80px;
+    }
+
+    .article-center {
+        width: 80%;
+    }
+
+    .photo {
+        width: 100%;
+    }
+}
+
+
