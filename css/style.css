@@ -111,6 +111,10 @@ h1 {
 
 /*startups*/
 
+.title-proyect{
+    margin-bottom: 30px;
+}
+
 .startups {
     border-top-left-radius: 70% 30%;
     border-top-right-radius: 70% 30%;
@@ -281,6 +285,10 @@ h1 {
     .proyects {
         margin-top: -70px;
     }
+    .external-links {
+        margin-top: 25%;
+        text-align: center;
+    }
 }
 
 @media (min-width: 576px) { 
@@ -353,7 +361,10 @@ h1 {
     .proyects {
         margin-top: -70px;
     }
-    
+    .external-links {
+        margin-top: 20%;
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) { 
@@ -413,6 +424,10 @@ h1 {
     .proyects {
         margin-top: -70px;
     }
+    .external-links {
+        margin-top: 10%;
+        text-align: center;
+    }
 }
 
 @media (min-width: 823px) { 
@@ -453,6 +468,10 @@ h1 {
     .proyects {
         margin-top: -70px;
     }
+    .external-links {
+        margin-top: 9%;
+        text-align: center;
+    }
 }
 
 @media (min-width: 951px) { 
@@ -484,6 +503,10 @@ h1 {
 
     .proyects {
         margin-top: -70px;
+    }
+    .external-links {
+        margin-top: 8%;
+        text-align: center;
     }
 }
 
@@ -521,6 +544,10 @@ h1 {
 
     .proyects {
         margin-top: -150px;
+    }
+    .external-links {
+        margin-top: 7%;
+        text-align: center;
     }
 }
 
@@ -575,6 +602,10 @@ h1 {
 
     .article {
         margin-left: 50px;
+    }
+    .external-links {
+        margin-top: 6%;
+        text-align: center;
     }
 }
 
