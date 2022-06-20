@@ -29,6 +29,7 @@ function getLanguage() {
 function setTranslate() {
     $('.js-intro').text(language.intro);
     $('.js-start-us').text(language.startus);
+    $('.js-software').text(language.software);
 }
 
 setDefaultLanguage();
