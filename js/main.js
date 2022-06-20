@@ -31,6 +31,7 @@ function setTranslate() {
     $('.js-start-us').text(language.startus);
     $('.js-software').text(language.software);
     $('.js-startups').text(language.startups);
+    $('.js-motivation').text(language.motivation);
 }
 
 setDefaultLanguage();
