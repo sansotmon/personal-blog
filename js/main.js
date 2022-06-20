@@ -44,7 +44,9 @@ function setTranslate() {
     $('.js-mimegafono').text(" "+language.mimegafono);
     $('.js-title-21ss').text(language.title_21ss);
     $('.js-21ss').text(" "+language.ssgaming);
-    
+    $('.js-books').text(language.books);
+    $('.js-places').text(language.places);
+    $('.js-created').text(language.created);    
 }
 
 setDefaultLanguage();
