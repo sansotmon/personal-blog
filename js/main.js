@@ -22,15 +22,13 @@ function getLanguage() {
         success: function (lang) {
             language = lang;
             setTranslate();
-        },
-        error: function(xml, error) {
-            console.log(error);
         }
     });
 }
 
 function setTranslate() {
-    $('#div1').text(language.date);
+    $('.js-intro').text(language.intro);
+    $('.js-start-us').text(language.startus);
 }
 
 setDefaultLanguage();
