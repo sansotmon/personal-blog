@@ -36,8 +36,10 @@ function setTranslate() {
     $('.js-motivation').text(language.motivation);
 
     $('.js-title').text(language.title);
-    $('.js-title-findpet').text(language.findpet_title);
+    $('.js-title-findpet').text(language.title_findpet);
     $('.js-findpet').text(" "+language.findpet);
+    $('.js-title-muvo').text(language.title_muvo);
+    $('.js-muvo').text(" "+language.muvo);
     
 }
 
