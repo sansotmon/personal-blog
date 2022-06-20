@@ -27,11 +27,18 @@ function getLanguage() {
 }
 
 function setTranslate() {
+    $('.js-english').html(language.english);
+    $('.js-spanish').html(language.spanish);
     $('.js-intro').text(language.intro);
-    $('.js-start-us').text(language.startus);
+    $('.js-start-us').text(language.start_us);
     $('.js-software').text(language.software);
     $('.js-startups').text(language.startups);
     $('.js-motivation').text(language.motivation);
+
+    $('.js-title').text(language.title);
+    $('.js-title-findpet').text(language.findpet_title);
+    $('.js-findpet').text(" "+language.findpet);
+    
 }
 
 setDefaultLanguage();
