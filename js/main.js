@@ -2,6 +2,9 @@ var language;
 
 function setDefaultLanguage() {
     (localStorage.getItem('language') == null) ? setLanguage('en') : false;
+    if (localStorage.getItem('language') == 'es'){
+        $('input[name="js-form-check-input"]').prop("checked", true);
+    }
     getLanguage();
 }
 
@@ -14,17 +17,21 @@ function getLanguage() {
     $.ajax({ 
         url:  './lang/' +  localStorage.getItem('language') + '.json',
         dataType: "json",
-        contentType: "application/json",
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
         success: function (lang) {
             language = lang;
             setTranslate();
         }
     });
 }
+
+$('input[name="js-form-check-input"]').on('change', function() {
+    let isChecked = $(this).prop('checked');
+    if(isChecked) {
+        setLanguage('es');
+    }else{
+        setLanguage('en');
+    }
+});
 
 function setTranslate() {
     $('.js-english').html(language.english);
@@ -46,7 +53,7 @@ function setTranslate() {
     $('.js-21ss').text(" "+language.ssgaming);
     $('.js-books').text(language.books);
     $('.js-places').text(language.places);
-    $('.js-created').text(language.created);    
+    $('.js-created').text(language.created+" ");    
 }
 
 setDefaultLanguage();

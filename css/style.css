@@ -54,6 +54,20 @@ h1 {
 
 /*selector clase*/
 
+.figure-col {
+    display: inline-flex;
+    margin-bottom: unset;
+}
+
+.flag-col {
+	width: 22px;
+    height: 16px;
+}
+
+.swith-lang {
+    color: #fff;
+}
+
 .blue-line {
     background: rgb(0, 255, 242);
     height: 2px;
@@ -640,5 +654,3 @@ h1 {
         width: 100%;
     }
 }
-
-
