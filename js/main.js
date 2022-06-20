@@ -40,6 +40,8 @@ function setTranslate() {
     $('.js-findpet').text(" "+language.findpet);
     $('.js-title-muvo').text(language.title_muvo);
     $('.js-muvo').text(" "+language.muvo);
+    $('.js-title-mimegafono').text(language.title_mimegafono);
+    $('.js-mimegafono').text(" "+language.mimegafono);
     
 }
 
