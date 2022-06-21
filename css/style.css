@@ -173,9 +173,9 @@ h1 {
     margin-right: 10px;
 }
 
-/*proyects/activities*/
+/*projects/activities*/
 
-.proyects {
+.projects {
     border-top-left-radius: 70% 30%;
     border-top-right-radius: 70% 30%;
     background-color: rgb(226, 226, 226);
@@ -185,7 +185,7 @@ h1 {
     z-index: 2;
 }
 
-.proyects .logo {
+.projects .logo {
     width: 50px;
     height: 50px;
 }
@@ -296,11 +296,11 @@ h1 {
         font-size: 15px;
     }
 
-    .proyects h5{
+    .projects h5{
         font-size: 15px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -70px;
     }
     .external-links {
@@ -372,11 +372,11 @@ h1 {
         font-size: 18px;
     }
 
-    .proyects h5{
+    .projects h5{
         font-size: 18px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -70px;
     }
     .external-links {
@@ -435,11 +435,11 @@ h1 {
         font-size: 18px;
     }
 
-    .proyects h5{
+    .projects h5{
         font-size: 18px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -70px;
     }
     .external-links {
@@ -483,7 +483,7 @@ h1 {
         padding-bottom: 100px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -70px;
     }
     .external-links {
@@ -519,7 +519,7 @@ h1 {
         padding-bottom: 100px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -70px;
     }
     .external-links {
@@ -560,7 +560,7 @@ h1 {
         padding-bottom: 200px;
     }
 
-    .proyects {
+    .projects {
         margin-top: -150px;
     }
     .external-links {
@@ -613,7 +613,7 @@ h1 {
         margin-right: 10px;
     }
 
-    .proyects .logo {
+    .projects .logo {
         width: 70px;
         height: 70px;
     }
