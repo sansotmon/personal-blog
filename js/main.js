@@ -45,6 +45,8 @@ function setTranslate() {
     $('.js-title').text(language.title);
     $('.js-title-findpet').text(language.title_findpet);
     $('.js-findpet').text(" "+language.findpet);
+    $('.js-title-ozon').text(language.title_ozon);
+    $('.js-ozon').text(" "+language.ozon);
     $('.js-title-muvo').text(language.title_muvo);
     $('.js-muvo').text(" "+language.muvo);
     $('.js-title-mimegafono').text(language.title_mimegafono);
